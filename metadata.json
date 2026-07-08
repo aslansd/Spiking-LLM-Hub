@@ -1,0 +1,6 @@
+{
+  "name": "Spiking LLM Hub",
+  "description": "An interactive playground and API gateway for open-source Spiking Neural Network (SNN) Large Language Models, featuring SpikeGPT, Nord, NeuronSpark, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
