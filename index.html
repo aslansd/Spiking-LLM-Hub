@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Spiking LLM Hub — Neuromorphic Language Model Explorer</title>
+    <meta
+      name="description"
+      content="An interactive explorer for open-source spiking neural network language models: SpikeGPT, SpikingBrain, NeuronSpark, BrainTransformers and more. Includes a simulated neuromorphic metrics playground."
+    />
+    <meta name="theme-color" content="#07090e" />
+    <meta name="color-scheme" content="dark" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Spiking LLM Hub" />
+    <meta
+      property="og:description"
+      content="Explore open-source spiking neural network language models, with a simulated playground for membrane threshold, decay and leak."
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Inline SVG favicon: no extra request, no binary asset in the repo. -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2307090e'/%3E%3Cg fill='none' stroke='%2334d399' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='9' cy='11' r='2.5'/%3E%3Ccircle cx='9' cy='21' r='2.5'/%3E%3Ccircle cx='23' cy='16' r='2.5'/%3E%3Cpath d='M11.5 11.8 20.6 15.2M11.5 20.2 20.6 16.8'/%3E%3C/g%3E%3C/svg%3E"
+    />
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      This application requires JavaScript. The models it catalogues are listed at
+      the linked GitHub and arXiv pages in the project README.
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
